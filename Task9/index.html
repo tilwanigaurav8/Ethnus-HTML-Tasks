@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>	
+	<head>
+		<title>frameset attribute</title>
+	</head>
+		
+	<frameset cols = "30%, 40%, 30%">
+        <frame>
+        <frameset rows = "50%, 50%">
+            <frame name = "top" src = "attr1.png" />
+            <frame name = "bottom" src = "col_last.png" />
+            <noframes>
+                <body>The browser you are working does not
+                                      support frames.</body>
+            </noframes>
+        </frameset>
+        </frame>
+		<frame name = "main" src = "gradient3.png" />
+		<frame name = "bottom" src = "col_last.png" />		
+		<noframes>
+			<body>The browser you are working does
+			not support frames.</body>
+		</noframes>
+	</frameset>
+</html>
